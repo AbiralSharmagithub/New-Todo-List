@@ -47,3 +47,29 @@
 .button:active {
   background-color: rgb(44, 243, 44);
 }
+ol li {
+  text-align: center;
+  font-size: 30px;
+}
+.myOrdered {
+  display: flex;
+  justify-content: left;
+}
+.myEx {
+ border: 1px solid black; 
+ border-radius: 50%;
+ font-size: 25px;
+ font-weight: 500;
+ margin: 1vh 0;
+ margin-right: 2vw;
+ padding: 4px; 
+ color: white;
+ background-color:  rgba(128, 0, 128, 0.742) ;
+}
+.myEx:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.myEx:active {
+  background-color: brown ;
+}
